@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="top f-12">
+        <div class="flex between p-3 align-center title">
+            <div class="flex title">
+                <p><a href="">日本語</a></p>
+                <p>/</p>
+                <p><a href="">Endlish</a></p>
+                <p>/</p>
+                <p><a href="">中文</a></p>
+            </div>
+            <h1 class="po-left"><img src="images/logo_pc.png"></h1>
+            <div class="right f-12">
+                <button class="btn btn2">グループ全体</button>
+                <button class="btn btn1">このサイト内</button>
+                <br>
+                <input class="input" placeholder="検索したいワードを入力してください" type="text">
+                <button class="btn btn1"><img src="images/search.png" width="10"></button>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="flex f-14 mt-3 mb-1 jus-center title">
+            <p class="ml-5"><a href="">企業情報</a></p>
+            <p class="ml-5"><a href="">技術・製品情報</a></p>
+            <p class="ml-5"><a href="">サステナビリティ</a></p>
+            <p class="ml-5"><a href="">株主・投資家情報</a></p>
+            <p class="ml-5 showEvent"><a href="">採用情報</a></p>
+        </div>
+        <br>
+        <div class="border-bottom-none rela">
+            <div class="show">
+                <div class="p-5 pm-10">
+                    <p>採用情報</p>
+                    <br>
+                    <hr class="whiteBorder mb-3">
+                    <br>
+                    <div class="flex wrap">
+                        <div class="card card2">
+                            <img src="images/saiyo_01.png" alt="">
+                        </div>
+                        <div class="card card2">
+                            <img src="images/saiyo_02.png" alt="">
+                        </div>
+                        <div class="card card2">
+                            <img src="images/saiyo_03.png" alt="">
+                        </div>
+                        <div class="card card2">
+                            <img src="images/saiyo_04.png" alt="">
+                        </div>
+                        <div class="card mt-5 card2">
+                            <img src="images/saiyo_05.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <script>
+                document.querySelector('.showEvent').addEventListener('mouseover', function () {
+                    document.querySelector('.show').style.height = '500px';
+                });
+                document.querySelector('.show').addEventListener('mouseover', function () {
+                    this.style.height = '500px';
+                });
+
+                document.querySelector('.show').addEventListener('mouseout', function () {
+                    this.style.height = '0';
+                });
+            </script>
+            <div class="leftArrow">
+                <img src="images/back.png" width="40" alt="">
+            </div>
+            <img src="images/topslide_lplink_230725.jpg" style="width: 100%; height: 600px;" alt="">
+            <div class="rightArrow">
+                <img src="images/more.png" width="40" alt="">
+            </div>
+            <div class="oprate">
+                <div class="active"></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="pl-10 skyblue">
+        <div class="flex f-14 align-center">
+            <div class="new ">
+                <div class="flex align-center">
+                    最新ニュース<img class="ml-2" src="images/select.png" width="20">
+                </div>
+                
+            </div>
+            <img class="ml-2" src="images/btn_stop.png" width="20">
+            <img class="ml-1" src="images/btn_prev.png" width="20">
+            <img class="ml-1" src="images/btn_next.png" width="20">
+            <p class="ml-3">2023年11月10日</p>
+            <p class="ml-3">「第11回 KOBELCO森の童話大賞」受賞作品の決定について</p>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="flex" style="margin: 0 auto;max-width: 1140px;">
+            <div class="flex column">
+                <h2 class="border-bottom">素材<span>Materials</span></h2>
+                <div class="flex border-bottom between ">
+                    <div class="flex align-center column jus-center">
+                        <img src="images/icon_steel.png" width="120" alt="">
+                        <p class="mt-3">鉄鋼アルミ</p>
+                    </div>
+                    <div class="flex align-center column jus-center">
+                        <img src="images/icon_material.png" width="120" alt="">
+                        <p class="mt-3">素形材</p>
+                    </div>
+                    <div class="flex align-center column jus-center">
+                        <img src="images/icon_welding.png" width="120" alt="">
+                        <p class="mt-3">溶接</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex column">
+                <h2 class="border-bottom">機械<span>Machinery</span></h2>
+                <div class="flex border-bottom between  ">
+                    <div class="flex align-center column jus-center">
+                        <img src="images/icon_machinery.png" width="120" alt="">
+                        <p class="mt-3">機械</p>
+                    </div>
+                    <div class="flex align-center column jus-center">
+                        <img src="images/icon_engineering.png" width="120" alt="">
+                        <p class="mt-3">エンジニアリング</p>
+                    </div>
+                    <div class="flex align-center column jus-center">
+                        <img src="images/icon_construction_machinery.png" width="120" alt="">
+                        <p class="mt-3">コベルコ建機</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex column">
+                <h2 class="border-bottom">電力<span>Electric Power</span></h2>
+                <div class="flex border-bottom between  ">
+                    <div class="flex align-center column jus-center">
+                        <div class="flex align-center column jus-center">
+                            <img src="images/icon_electric_power.png" width="120" alt="">
+                            <p class="mt-3">電力</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex column">
+                <h2 class="border-bottom">研究開発<span>R&D</span></h2>
+                <div class="flex border-bottom between  ">
+                    <div class="flex align-center column jus-center">
+                        <div class="flex align-center column jus-center">
+                            <img src="images/icon_gikai.png" width="120" alt="">
+                            <p class="mt-3">研究開発</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-right pl-5 f-12">その他「ものづくり」を基盤とした多彩なビジネス展開</p>
+    </div>
+
+    </div>
+    <main class="gray">
+        <div>
+            <div class="relative">
+                <div class="leftArrow leftArrow1">
+                    <img src="images/back.png" width="40" alt="">
+                </div>
+                <div class="rightArrow rightArrow1">
+                    <img src="images/more.png" width="40" alt="">
+                </div>
+                <div class="flex between">
+                    <div class="card">
+                        <img src="images/img_pickup_main05.jpg" alt="">
+                        <p>グループ企業理念</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/img_pickup_main02.jpg" alt="">
+                        <p>社長メッセージ</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/img_pickup_main230725.jpg" alt="">
+                        <p>あしたにいいこと、KOBELCOと。</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="main f-14">
+            <div>
+                <div class="flex wrap between">
+                    <div class="card card1">
+                        <img src="images/img_pickup_dialogue.png" alt="">
+                        <p>資本市場との対話について</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_sub_n100.jpg" alt="">
+                        <p>KOBELCOの約束　Next100プロジェクト</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_sub01_2023.png" alt="">
+                        <p>統合報告書・ESGデータブック</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_sub_231128_leagueone.jpg" alt="">
+                        <p>ジャパンラグビー　リーグワン2023-24　開幕</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_22saiyou.jpg" alt="">
+                        <p>KOBELCOグループ採用サイトがオープンしました！</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_recruiting.png" alt="">
+                        <p>キャリア採用（総合職）</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_sub05.jpg" alt="">
+                        <p>品質不適切行為に係る</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_sub08_210528.png" alt="">
+                        <p>KOBELCOのダイバーシティ&インクルージョン</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_ship.jpg" alt="">
+                        <p>船舶・造船・海洋構造物　製品と技術への取り組み</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_digitalkocolab.png" alt="">
+                        <p>デジタルKoCoLab</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/awards.png" alt="">
+                        <p>受賞履歴</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/2205_youtube.png" alt="">
+                        <p>YouTube KOBELCO officialチャンネル</p>
+                    </div>
+                    <div class="card card1">
+                        <img src="images/img_pickup_kenzai.jpg" alt="">
+                        <p>KOBELCOグループの建築・土木関連製品</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </main>
+    <main>
+        <div class="flex under">
+            <div class="flex f-12 p-3 w-50 column">
+                <div class="flex between">
+                    <h2>プレスリリース</h2>
+                    <p class="more">more</p>
+                </div>
+                <hr class="mt-3">
+                <div class="flex column mt-3">
+                    <div class="flex">
+                        <div class="w-10">
+                            <p>11.28</p>
+                        </div>
+                        <p class="ml-3">
+                            2028年满期工一口建取得条项付耘换社债型新株予豹付社债及U2030年满11.22期工一口网建取得条项付耘换社债型新株予豹橙付社债の凳行条件等の决定二DT胃寸石书知方世</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.28</p>
+                        </div>
+                        <p class="ml-3">工一口CB凳行二周寸辅足税明资料</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.28</p>
+                        </div>
+                        <p class="ml-3">2028年满期工一口内建取得桑项付耘换社债型新株予豹檀付社债及U2030年满期工一口巴建取得条项付联换社债型新株予豹楼付社债の务行二图寸知白</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.27</p>
+                        </div>
+                        <p class="ml-3">当社子会社等仁扫十石1SO韶证一时停止在弓U二取消LEDL\T</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.17</p>
+                        </div>
+                        <p class="ml-3">又L一了FLNGJ口沙工卜向十又口于木儿熟交换器(DCHE)D受注1ED
+                            lt</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.16</p>
+                        </div>
+                        <p class="ml-3">T第11回KOBELOO森の童结大赏]受赏作品の决定二DLT
+                            lt</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex f-12 p-3 w-50 column">
+                <div class="flex between">
+                    <h2>お知らせ</h2>
+                    <p class="more">more</p>
+                </div>
+                <hr class="mt-3">
+                <div class="flex column mt-3">
+                    <div class="flex">
+                        <div class="w-10">
+                            <p>11.22</p>
+                        </div>
+                        <p class="ml-3">八儿二神芦人于4一5一丈TGR TEAM SARDO=术L->32，卜朋催仁</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.16</p>
+                        </div>
+                        <p class="ml-3">2024年3月期第2四半期决算R脱明会管疑要揭载L末L大</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.10</p>
+                        </div>
+                        <p class="ml-3">T2024年3月期第2四半期决算R说明会音声于一]揭载L末L大</p>
+                    </div>
+                    <div class="flex mt-3">
+                        <div class="w-10">
+                            <p>11.02</p>
+                        </div>
+                        <p class="ml-3">TKOBELCO少儿一童力事第二扫取租办PU 说明会 货疑要]查
+                            揭载L末L左</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <main class="gray">
+        <div class="flex  wrap">
+            <div class="w-25">
+                <img src="images/banner01.jpg" alt="">
+            </div>
+            <div class="w-25">
+                <img src="images/banner03.jpg" alt="">
+            </div>
+            <div class="w-25">
+                <img src="images/banner04.jpg" alt="">
+            </div>
+            <div class="w-25">
+                <img src="images/banner09.png" alt="">
+            </div>
+            <div class="w-25">
+                <img src="images/banner05.jpg" alt="">
+            </div>
+            <div class="w-25">
+                <img src="images/banner07.jpg" alt="">
+            </div>
+            <div class="w-25">
+                <img src="images/banner08.jpg" alt="">
+            </div>
+            <div class="w-25">
+                <img src="images/banner02.jpg" alt="">
+            </div>
+
+        </div>
+    </main>
+    <main class="blue">
+        <p><a class="link">当社グループの従業員を名乗る不審なメールにご注意ください</a></p>
+        <p><a class="link">「退職者の方に対する石綿に関する健康診断ならびに健康管理手帳の取得について（お知らせ）」を掲載しました。 </a></p>
+    </main>
+    <main class="footer">
+        <div class="flex">
+            <div>
+                <p>サイトマップ</p>
+                <p>個人情報等の保護について</p>
+                <p>サプライヤー募集</p>
+                <p>災害時連絡情報</p>
+                <p>本ウェブサイトについて</p>
+                <p>事業所案内</p>
+                <button class="transBtn">電子公告</button>
+                <button class="transBtn">お問い合わせ</button>
+            </div>
+            <div class="ml-5">
+                <p>企業情報</p>
+                <hr>
+                <p>
+                    KOBELCOアウトライン
+                </p>
+                <p>
+                    神戸製鋼所
+                </p>
+                <p>
+                    関係会社
+                </p>
+                <p>
+                    サステナビリティ経営
+                </p>
+                <p>
+                    受賞履歴
+                </p>
+                <p>採用情報</p>
+                <hr>
+
+                <p>
+                    KOBELCOグループ採用サイト
+                </p>
+                <p>
+                    キャリア採用（総合職）
+                </p>
+                <p>
+                    キャリア採用（基幹職）
+                </p>
+            </div>
+            <div class="ml-5">
+                <p>技術・製品情報</p>
+                <hr>
+                <p>
+                    ここにKOBELCO　ここもKOBELCO
+                </p>
+                <p>
+                    製品開発
+                </p>
+                <p>
+                    研究開発
+                </p>
+                <p>
+                    映像で見る工場
+                </p>
+                <p>
+                    定期刊行物
+                </p>
+
+                <hr>
+
+                <p>
+                    統合報告書・ESGデータブック
+                </p>
+            </div>
+            <div class="ml-5">
+                <p>株主・投資家情報</p>
+                <hr>
+                <p>
+                    新着情報
+                </p>
+                <p>
+                    グループ中期経営ビジョン
+                </p>
+                <p>
+                    財務ハイライト
+                </p>
+                <p>
+                    IRライブラリ
+                </p>
+                <p>
+                    IRカレンダー
+                </p>
+
+
+                <p>
+                    株式情報
+                </p>
+                <p>
+                    資料請求
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
